@@ -1,0 +1,44 @@
+.search-input {
+    align-self: center;
+    height: 25px;
+    background: #171415;
+    border-radius: 25px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    width: 700px;
+    color: #939393;
+}
+
+
+.menu-bar-form {
+    margin: auto auto auto;
+}
+
+.menu-bar {
+    align-items: center;
+    display: flex;
+    width: 80%;
+    margin: 0 auto auto;
+    padding-top: 1%;
+}
+
+.app-name {
+    margin: 1% 2%;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin: 1%
+}
