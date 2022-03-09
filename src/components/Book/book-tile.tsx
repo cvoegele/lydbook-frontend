@@ -4,7 +4,6 @@ import {Book} from "../../entities/Book";
 import {getLengthOfBook} from "../../services/book-service";
 
 interface BookTileProps {
-    accentColor: string; //
     listeningPercent: number;
     currentlyListening: boolean;
     book: Book;
@@ -14,15 +13,15 @@ export function BookTile(props: BookTileProps) {
 
     const listeningBarWidthStyleAttribute = {
         width: props.listeningPercent,
-        backgroundColor: props.accentColor
+        backgroundColor: props.book.accentColor
 
     }
 
     const accentColor = {
-        backgroundColor: props.accentColor
+        backgroundColor: props.book.accentColor
     }
 
-    const timeInMinutes: number = getLengthOfBook(props.book.id) * ((100 - props.listeningPercent) / 100);
+    const timeInMinutes: number = props.book.length * ((100 - props.listeningPercent) / 100);
     const hours = Math.floor(timeInMinutes / 60);
     const minutes = Math.floor(timeInMinutes % 60);
 

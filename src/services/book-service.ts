@@ -17,16 +17,17 @@ export function getBookById(bookId: number, callback: (book: Book) => void) {
                 new Series(0, "", []),
                 new Date(json.uploadDate),
                 json.bookNumber,
-                1000)
+                getLengthOfBook(),
+                getAccentColorOfBook())
         }).then(book => callback(book))
 }
 
-export function getAccentColorOfBook(bookId: number) {
+export function getAccentColorOfBook() {
     //TODO: real implementation
     return `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, 1)`;
 }
 
-export function getLengthOfBook(bookId: number) {
+export function getLengthOfBook() {
     //TODO: real implementation
     return Math.random() * 2000 + 500
 }

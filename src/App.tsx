@@ -5,6 +5,7 @@ import {Book} from "./entities/Book";
 import {getAccentColorOfBook, getBooksByUser, getListeningPositionOfBookByUser} from "./services/book-service";
 import {Role, User} from "./entities/User";
 import {Menubar} from "./components/MenuBar/menubar";
+import {Dashboard} from "./components/MenuBar/dashboard";
 
 /**
  * Main App Component, this is the start of the single page application.
@@ -28,21 +29,24 @@ export class App extends React.Component<{}, { books: Book[], user: User }> {
         this.setState({books: books})
     }
 
+    getBackgroundStyle() {
+        return
+    }
+
 
     render() {
-        let tiles = []
-        for (let book of this.state.books) {
-            tiles.push(<BookTile accentColor={getAccentColorOfBook(book.id)}
-                                 listeningPercent={getListeningPositionOfBookByUser(this.state.user.name, book.id)}
-                                 currentlyListening={false} book={book}/>)
+
+        let appBackground = {}
+        if (this.state.books.length > 0) {
+            appBackground = {
+                background: `linear-gradient(180deg, ${this.state.books[0].accentColor}, #FFFFFF 50%)`
+            }
         }
 
         return (
-            <div className="App">
-                <Menubar user={this.state.user} />
-                <div className={"main-container"}>
-                    {tiles}
-                </div>
+            <div className="App" style={appBackground}>
+                <Menubar user={this.state.user}/>
+                <Dashboard books={this.state.books} user={this.state.user}/>
             </div>
         );
     }

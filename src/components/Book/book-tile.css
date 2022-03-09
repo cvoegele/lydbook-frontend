@@ -32,7 +32,8 @@
     width: 80%;
     font-size: 18px;
     line-height: 21px;
-    align-self: center;
+    margin: 2% auto auto auto;
+    text-align: center;
     text-decoration-line: underline;
     color: var(--text-color);
 }

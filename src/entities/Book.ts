@@ -3,6 +3,7 @@ import {Author} from "./Author";
 
 export class Book {
 
+
     private _id: number;
     private _dataName: string;
     private _title: string;
@@ -11,8 +12,9 @@ export class Book {
     private _uploadDate: Date;
     private _bookNumber: number;
     private _length: number;
+    private _accentColor: string;
 
-    constructor(id: number, dataName: string, title: string, author: Author, series: Series, uploadDate: Date, bookNumber: number, length: number) {
+    constructor(id: number, dataName: string, title: string, author: Author, series: Series, uploadDate: Date, bookNumber: number, length: number, accentColor: string) {
         this._id = id;
         this._dataName = dataName;
         this._title = title;
@@ -21,6 +23,7 @@ export class Book {
         this._uploadDate = uploadDate;
         this._bookNumber = bookNumber;
         this._length = length;
+        this._accentColor = accentColor;
     }
 
     get id(): number {
@@ -85,6 +88,14 @@ export class Book {
 
     set length(value: number) {
         this._length = value;
+    }
+
+    get accentColor(): string {
+        return this._accentColor;
+    }
+
+    set accentColor(value: string) {
+        this._accentColor = value;
     }
 }
 

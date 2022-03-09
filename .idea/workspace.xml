@@ -2,35 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3e2299-a393-4860-b605-b615fda1dc9f" name="Changes" comment="add menubar">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/profileimage.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Book/book-tile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Book/book-tile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MenuBar/dashboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MenuBar/menubar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MenuBar/menubar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Author.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Book.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Series.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/User.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/auth-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/book-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuBar/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuBar/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuBar/navigation.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Book/book-tile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Book/book-tile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Book/book-tile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Book/book-tile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuBar/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuBar/dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuBar/menubar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuBar/menubar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Book.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Book.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/book-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/book-service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -109,8 +92,16 @@
       <updated>1646311652037</updated>
       <workItem from="1646311654278" duration="70000" />
       <workItem from="1646311728966" duration="31000" />
-      <workItem from="1646311772733" duration="4488000" />
+      <workItem from="1646311772733" duration="9656000" />
     </task>
+    <task id="LOCAL-00001" summary="add menubar">
+      <created>1646316301652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646316301652</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
