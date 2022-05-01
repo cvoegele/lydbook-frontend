@@ -33,7 +33,7 @@ export class App extends React.Component<{}, { books: Book[], user: User }> {
         return
     }
 
-
+    // render method
     render() {
 
         let appBackground = {}
